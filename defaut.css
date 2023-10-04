@@ -19,9 +19,10 @@ body {
     margin: 0 100px;
 }
 
-header {
+.header-index {
     background-color: black;
     color: white;
+    height: 100%;
 }
 
 .nomEtNav {
@@ -144,6 +145,18 @@ footer p {
 }
 
 /* PROJET */
-header .memory{
+.header-memory{
     color: white;
+    background: url("./images/jump-start.png"), url("./images/points.png");
+    height: 100%;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+}
+.partieCentrale-memory {
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+
+article p{
+    text-align: center;
 }
