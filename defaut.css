@@ -94,7 +94,7 @@ h2,
     padding-left: 50px;
     background-size: cover;
     height: 100px;
-    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
 
 .memory {
@@ -145,18 +145,101 @@ footer p {
 }
 
 /* PROJET */
-.header-memory{
+.header-memory {
     color: white;
     background: url("./images/jump-start.png"), url("./images/points.png");
     height: 100%;
-    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
+
 .partieCentrale-memory {
     display: flex;
     align-items: center;
     margin-top: 250px;
 }
 
-article p{
+article p {
     text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 770px) {
+    .container {
+        margin: 0 5%;
+    }
+
+    header,
+    .header-index {
+        height: 500px;
+    }
+
+    header img {
+        width: 50%;
+        margin-right: 50px;
+    }
+
+    .element {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        background-size: cover;
+        height: 100px;
+        padding: 0;
+    }
+}
+
+
+@media all and (max-width:600px) {
+    header img {
+        display: none;
+    }
+
+    #listeCreations {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:460px) {
+    .container {
+        margin: 0 5px;
+    }
+
+    .nomEtNav,
+    .creations,
+    .contact {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    header,
+    .header-index {
+        height: 300px;
+    }
+
+    .partieCentrale {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .creations {
+        margin-top: 25px;
+    }
+
+    .contact h2 {
+        margin-top: 25px;
+    }
+
+    .element {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
 }
