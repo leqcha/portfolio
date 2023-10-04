@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.nomEtNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li:nth-of-type(2) {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 800px;
+}
+
+header a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+header img {
+    width: 400px;
+    margin-right: 200px;
+}
+
+.partieCentrale {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+h2,
+.creations {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#listeCreations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.element {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 50px;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+}
+
+.memory {
+    background-image: url(images/jump-start.png);
+}
+
+.booki {
+    background-image: url(images/pac-man.jpg);
+}
+
+.cv {
+    background-image: url(images/rodeo-pump.jpg);
+}
+
+.a-venir {
+    background-image: url(images/mega-pop.jpg);
+}
+
+.contact {
+    text-align: center;
+}
+
+.ligne {
+    margin-top: 40px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.envoyer-mail {
+    display: inline;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+/* PROJET */
+header .memory{
+    color: white;
+}
