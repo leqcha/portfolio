@@ -147,7 +147,10 @@ footer p {
 /* PROJET */
 .header-memory {
     color: white;
-    background: url("./images/jump-start.png"), url("./images/points.png");
+    background: 
+    url("./images/points.png"),
+    url("./images/jump-start.png");
+    font-size: 17px;
     height: 100%;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
 }
@@ -188,8 +191,12 @@ article p {
         height: 100px;
         padding: 0;
     }
-}
 
+/* PAGE MEMORY */
+    .partieCentrale-memory{
+        margin-top: 100px;
+    }
+}
 
 @media all and (max-width:600px) {
     header img {
@@ -222,7 +229,7 @@ article p {
         height: 300px;
     }
 
-    .partieCentrale {
+    .partieCentrale, .partieCentrale-memory {
         margin-top: 50px;
         font-size: 14px;
     }
