@@ -13,6 +13,12 @@ video {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex-grow: 1;
 }
 
 .container {
@@ -161,8 +167,26 @@ footer p {
     margin-top: 250px;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 article p {
     text-align: center;
+}
+
+article img{
+    width: 500px;
+}
+
+article a{
+    color: black;
+}
+article a:visited{
+    color: black;
 }
 
 /* MEDIA QUERIES */
@@ -226,7 +250,7 @@ article p {
 
     header,
     .header-index {
-        height: 300px;
+        height: 400px;
     }
 
     .partieCentrale, .partieCentrale-memory {
@@ -248,5 +272,6 @@ article p {
 
     footer p {
         font-size: 13px;
+        max-height: 100px;
     }
 }
