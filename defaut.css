@@ -84,10 +84,10 @@ h2,
 
 #listeCreations {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 40px;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: minmax(70px, auto);
+    row-gap: 15px;
+    column-gap: 15px;
 }
 
 .element {
@@ -121,6 +121,11 @@ h2,
 
 .contact {
     text-align: center;
+}
+
+
+.contact h2{
+    padding-bottom: 20px;
 }
 
 .ligne {
@@ -194,6 +199,13 @@ article a:visited{
 }
 
 /* MEDIA QUERIES */
+@media all and (max-width: 1400px) {
+    header img {
+        width: 40%;
+        margin-right: 50px;
+    }
+}
+
 @media all and (max-width: 770px) {
     .container {
         margin: 0 5%;
@@ -254,7 +266,7 @@ article a:visited{
 
     header,
     .header-index {
-        height: 400px;
+        height: 300px;
     }
 
     .partieCentrale, .partieCentrale-memory {
