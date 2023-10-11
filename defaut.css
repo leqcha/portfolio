@@ -156,9 +156,13 @@ footer p {
     background: 
     url("./images/points.png"),
     url("./images/jump-start.png");
-    font-size: 17px;
+    font-size: 18px;
     height: 100%;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.header-memory {
+    font-weight: bold;
 }
 
 .partieCentrale-memory {
