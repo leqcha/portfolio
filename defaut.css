@@ -104,7 +104,7 @@ h2,
 }
 
 .memory {
-    background-image: url(images/memory.png);
+    background-image: url(images/memory.jpg);
 }
 
 .booki {
@@ -158,12 +158,11 @@ footer p {
 /* PROJET MEMORY*/
 .header-memory {
     color: white;
-    background: 
-    url("./images/points.png"),
-    url("./images/memory.png");
+    background: url("./images/memory.jpg");
     font-size: 18px;
     height: 100%;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    background-size: cover;
 }
 
 .header-memory {
