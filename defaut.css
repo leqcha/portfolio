@@ -104,19 +104,19 @@ h2,
 }
 
 .memory {
-    background-image: url(images/jump-start.png);
+    background-image: url(images/memory.png);
 }
 
 .booki {
-    background-image: url(images/pac-man.jpg);
+    background-image: url(images/booki.jpg);
 }
 
 .cv {
-    background-image: url(images/rodeo-pump.jpg);
+    background-image: url(images/cv.jpg);
 }
 
 .a-venir {
-    background-image: url(images/mega-pop.jpg);
+    background-image: url(images/en-cours.jpg);
 }
 
 .contact {
@@ -160,7 +160,7 @@ footer p {
     color: white;
     background: 
     url("./images/points.png"),
-    url("./images/jump-start.png");
+    url("./images/memory.png");
     font-size: 18px;
     height: 100%;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
