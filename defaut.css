@@ -155,7 +155,7 @@ footer p {
     font-size: 15px;
 }
 
-/* PROJET */
+/* PROJET MEMORY*/
 .header-memory {
     color: white;
     background: 
@@ -196,6 +196,18 @@ article a{
 }
 article a:visited{
     color: black;
+}
+/* PROJET BOOKI*/
+.header-booki {
+    color: white;
+    background: url("./images/booki.jpg") repeat;
+    font-size: 18px;
+    height: 100%;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.images_booki img{
+    width: max-content;
 }
 
 /* MEDIA QUERIES */
