@@ -199,7 +199,8 @@ article a:visited{
 /* PROJET BOOKI*/
 .header-booki {
     color: white;
-    background: url("./images/booki.jpg") repeat;
+    background: url("./images/booki.jpg");
+    background-size: cover;
     font-size: 18px;
     height: 100%;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
@@ -207,6 +208,31 @@ article a:visited{
 
 .images_booki img{
     width: max-content;
+}
+
+/* PROJET CV */
+.header-cv {
+    color: white;
+    background: url("./images/cv.jpg");
+    background-size: cover;
+    font-size: 18px;
+    height: 100%;
+}
+.image-cv{
+    width: 900px;
+    border: 1px solid #dae6f2;
+    border-radius: 20px;
+}
+.telecharger {
+    display: inline;
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.telecharger a:visited{
+    color: white;
 }
 
 /* MEDIA QUERIES */
