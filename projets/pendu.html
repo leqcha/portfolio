@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pendu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>Jeu du Pendu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jeu du Pendu</h1>
+    </header>
+
+    <div class="container">
+        <main>
+
+            <article class="jeu">
+                <div class="colonneGauche">
+                    <div class="coups">
+                        <span>Vies : </span>
+                        <div class="score">7</div>
+                    </div>
+                    <img src="../images/0.png" alt="#">
+                </div>
+
+
+                <div class="colonneDroite">
+                    <button class="nouvellePartie">Nouvelle partie</button>
+                    <div class="clavier">
+                        <table>
+                            <tr>
+                                <td>a</td>
+                                <td>b</td>
+                                <td>c</td>
+                                <td>d</td>
+                                <td>e</td>
+                                <td>f</td>
+                                <td>g</td>
+                                <td>h</td>
+                                <td>i</td>
+                                <td>j</td>
+                                <td>k</td>
+                                <td>l</td>
+                                <td>m</td>
+                                <td>n</td>
+                                <td>o</td>
+                                <td>p</td>
+                                <td>q</td>
+                                <td>r</td>
+                                <td>s</td>
+                                <td>t</td>
+                                <td>u</td>
+                                <td>v</td>
+                                <td>w</td>
+                                <td>x</td>
+                                <td>y</td>
+                                <td>z</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="tirets"></div>
+
+                    <div class="motAEnvoyer">Vous pensez à un mot ?
+                        <form action="" class="formulaire">
+                            <input type="text" id="mot" name="mot" required>
+                            <button type="submit">Envoyer mot</button>
+                        </form>
+                    </div>
+
+                </div>
+            </article>
+
+        </main>
+    </div>
+
+    <footer>
+        <div class="texte">Jeu réalisé dans le cadre du programme Rocket de</div>
+        <a href="https://believemy.com/program/le-programme-rocket"><img src="../images/believemy-logo.svg"></a>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
