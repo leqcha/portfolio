@@ -16,13 +16,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url("images/pexels-cottonbro-studio-3826435.jpg");
+    background-image: url("images/pexels-cottonbro-studio-3826435.jpg");
+    background-color: #131416;
     background-size: cover;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: "Nanum Pen Script", cursive;
 }
 
 header,
-main{
+main {
     text-align: center;
     font-weight: bold;
     color: white;
@@ -44,7 +45,6 @@ footer img {
     height: 70px;
 }
 
-
 main {
     flex-grow: 1;
     font-size: 20px;
@@ -52,17 +52,17 @@ main {
     padding: 10px;
 }
 
-h1{
+h1 {
     font-size: 70px;
 }
 
-.nouvellePartie{
+.nouvellePartie {
     padding: 10px;
     margin-bottom: 10px;
 }
 
-button{
-    font-family: 'Nanum Pen Script', cursive;
+button {
+    font-family: "Nanum Pen Script", cursive;
     font-size: 30px;
     border-radius: 10px;
 }
@@ -83,25 +83,25 @@ button{
 }
 
 /* COLONNE GAUCHE */
-.colonneGauche{
+.colonneGauche {
     font-size: 40px;
 }
 
-.coups{
+.coups {
     margin-bottom: 30px;
 }
 
-.score{
+.score {
     display: inline;
 }
 
 /* COLONNE DROITE */
-tr{
+tr {
     display: flex;
     flex-wrap: wrap;
 }
 
-td{
+td {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
@@ -110,18 +110,18 @@ td{
     font-size: 40px;
 }
 
-td:hover{
+td:hover {
     background-color: white;
     color: black;
 }
 
-.formulaire{
+.formulaire {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-form input{
+form input {
     font-size: 40px;
     border-radius: 5px;
     border: 1px solid white;
@@ -131,7 +131,7 @@ form input{
     height: 45px;
 }
 
-form button{
+form button {
     font-size: 30px;
     border-radius: 5px;
     border: 1px solid white;
@@ -139,13 +139,13 @@ form button{
     margin: 5px;
 }
 
-.tirets{
+.tirets {
     margin: 20px;
     font-size: 50px;
 }
 
 /* MEDIA QUERIES */
-@media all and (max-width:1140px) {
+@media all and (max-width: 1140px) {
     h1 {
         font-size: 40px;
         margin-bottom: 0;
@@ -155,82 +155,83 @@ form button{
         margin-top: 0;
     }
 
-    img{
+    img {
         width: 40vh;
     }
-    .colonneGauche img{
+
+    .colonneGauche img {
         max-width: 400px;
     }
 
-    .nouvellePartie{
+    .nouvellePartie {
         padding: 5px;
         margin-bottom: 5px;
     }
 
-    button{
-        font-family: 'Nanum Pen Script', cursive;
+    button {
+        font-family: "Nanum Pen Script", cursive;
         font-size: 25px;
         border-radius: 10px;
     }
 
-    .coups{
+    .coups {
         margin-bottom: 10px;
     }
 
-    td{ 
-        width:40px;
+    td {
+        width: 40px;
     }
 
     footer {
         flex-direction: column;
         font-size: 15px;
-    } 
-
-    .tirets{
-        font-size: 30px;
     }
 
+    .tirets {
+        font-size: 30px;
+    }
 }
 
-@media all and (max-width:740px) {
-    img{
+@media all and (max-width: 740px) {
+    img {
         width: 250px;
     }
 }
 
-
-@media all and (max-width:510px) {
-    body{
+@media all and (max-width: 510px) {
+    body {
         margin: 0 auto;
     }
 
-    h1{
+    h1 {
         font-size: 30px;
     }
 
-    button, form button{
+    button,
+    form button {
         font-size: 20px;
     }
 
-    .jeu{
+    .jeu {
         flex-direction: column-reverse;
     }
 
-    .colonneGauche, .colonneDroite{
+    .colonneGauche,
+    .colonneDroite {
         width: 100%;
     }
 
-    img{
+    img {
         width: 250px;
         height: 200px;
         margin-bottom: 20px;
     }
 
-    td{
+    td {
         font-size: 20px;
     }
 
-    .tirets{
+    .tirets {
         font-size: 35px;
         margin: 0 0 10px 0;
     }
@@ -239,7 +240,7 @@ form button{
         font-size: 20px;
     }
 
-    #mot{
+    #mot {
         font-size: 30px;
     }
 
@@ -247,11 +248,12 @@ form button{
         font-size: 30px;
     }
 
-    footer{
+    footer {
         margin-top: 10px;
         font-size: 12px;
     }
-    footer img{
+
+    footer img {
         margin-top: 5px;
         width: 100px;
         height: 20px;
